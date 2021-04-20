@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message SimpleMessage {
+    required int32 number = 1;
+    required string message = 2;
+}
